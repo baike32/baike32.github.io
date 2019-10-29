@@ -29,4 +29,12 @@
 	// Scrolly.
 		$('.scrolly').scrolly();
 
+
+    // Tagged bike image
+    $('#tagged_bike').hover(function(){
+        $(this).attr('src','./images/bike_tagging_wtags.png');
+    },function(){
+        $(this).attr('src','./images/bike_tagging_notags.png');
+});
+
 })(jQuery);

@@ -11,10 +11,10 @@
 /* custom items */
 
 .baike_bicycle {
-    background: url('images/baike_bicycle.svg');
+    background: url('images/logo_head.svg');
 	background-repeat: no-repeat;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 	display: inline-block;
 
 }
@@ -2449,6 +2449,7 @@ input, select, textarea {
 	}
 
 /* Actions */
+
 
 	ul.actions {
 		display: -moz-flex;
