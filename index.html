@@ -18,7 +18,9 @@
 		<!-- Header -->
 			<section id="header">
 				<div class="inner">
-					<span class="baike_bicycle"></span>
+					<div id="scene">
+						<div data-depth="0.20"><span class="baike_bicycle"></span></div>
+					</div>
 					<h1>Hi, this is <strong>Baike</strong>, a tool<br />
 					that diagnoses bikes.</h1>
 					<p>Automatic tagging of bike images with A.I.<br />
@@ -44,8 +46,10 @@
 							</p>
 						</div>
 						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit"><img id = 'tagged_bike' src="images/bike_tagging_wtags.png"
-														 alt="" /></span>
+							<span class="image fit">
+								<img id = 'under_image' src="images/bike_tagging_notags.png" alt="" />
+								<img id = 'over_image' src="images/bike_tagging_tags.png" alt="" />
+							</span>
 						</div>
 					</div>
 				</div>
@@ -480,6 +484,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				</ul>
 			</section>
 
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.flip.min.js"></script>
@@ -488,6 +493,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/parallax.min.js"></script>
 	</body>
 </html>
